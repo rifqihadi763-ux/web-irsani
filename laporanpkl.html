@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Laporan PKL - Muhammad Irsani</title>
+  <style>
+    :root {
+      --accent: #2b6cb0;
+      --muted: #666;
+      --card: #fff;
+      --bg: #f4f6f8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      margin: 0;
+      background: var(--bg);
+      color: #111;
+    }
+    .container {
+      max-width: 900px;
+      margin: 28px auto;
+      padding: 20px;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .profile-pic {
+      width: 84px;
+      height: 84px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid var(--accent);
+    }
+    .logo {
+      width: 84px;
+      height: 84px;
+      border-radius: 8px;
+      background: linear-gradient(135deg, var(--accent), #4aa3e0);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-weight: 700;
+      font-size: 18px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 22px;
+    }
+    p.lead {
+      color: var(--muted);
+      margin: 6px 0 18px;
+    }
+    nav {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 18px;
+    }
+    nav a {
+      background: #fff;
+      padding: 8px 12px;
+      border-radius: 8px;
+      text-decoration: none;
+      color: var(--accent);
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+    }
+    .card {
+      background: var(--card);
+      padding: 16px;
+      border-radius: 10px;
+      box-shadow: 0 6px 18px rgba(35, 45, 55, 0.06);
+      margin-bottom: 14px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    table th, table td {
+      padding: 8px;
+      border: 1px solid #eef2f6;
+      font-size: 14px;
+      text-align: left;
+    }
+    .flex {
+      display: flex;
+      gap: 12px;
+    }
+    .muted {
+      color: var(--muted);
+    }
+    footer {
+      color: var(--muted);
+      font-size: 13px;
+      text-align: center;
+      margin-top: 18px;
+    }
+    @media print {
+      body { background: #fff; }
+      nav, .no-print { display: none; }
+      .container { max-width: 100%; margin: 0; padding: 0; }
+      .card { box-shadow: none; border-radius: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <!-- Foto profil baru -->
+      <img src="/WhatsApp Image 2025-10-23 at 11.58.32.jpeg" alt="Foto Profil" class="profile-pic">
+      <div class="logo">PKL</div>
+      <div>
+        <h1>Laporan Praktek Kerja Lapangan (PKL)</h1>
+        <p class="lead">
+          Nama: <strong>Muhammad Irsani</strong> • NIM: <strong>[NIM]</strong> • Instansi: <strong>Telkom Akses Samarinda</strong>
+        </p>
+      </div>
+    </header>
+
+    <nav class="no-print">
+      <a href="#ringkasan">Ringkasan</a>
+      <a href="#latar">Latar Belakang</a>
+      <a href="#kegiatan">Kegiatan</a>
+      <a href="#hasil">Hasil</a>
+      <a href="#kesimpulan">Kesimpulan</a>
+      <a href="#lampiran">Lampiran</a>
+    </nav>
+
+    <section id="ringkasan" class="card">
+      <h2>Ringkasan</h2>
+      <p class="muted">
+        Program Praktik Kerja Lapangan (PKL) merupakan kegiatan dimana siswa diwajibkan melakukan kegiatan kerja di sebuah instansi baik negeri maupun swasta selama kurun waktu yang ditentukan.
+      </p>
+    </section>
+
+    <section id="latar" class="card">
+      <h2>Latar Belakang & Tujuan</h2>
+      <p><strong>Latar Belakang:</strong> Adanya kegiatan PKL menjadi peluang yang sangat baik bagi siswa yang akan memasuki dunia kerja.</p>
+      <p><strong>Tujuan:</strong> Menumbuhkan rasa percaya diri, tanggung jawab, dan keberanian siswa menghadapi dunia kerja nyata.</p>
+    </section>
+
+    <section class="card">
+      <h2>Data Diri</h2>
+      <table>
+        <tr><th>Nama</th><td>Muhammad Irsani</td></tr>
+        <tr><th>NIM</th><td>[NIM]</td></tr>
+        <tr><th>Program Studi</th><td>Teknik Komputer dan Jaringan</td></tr>
+        <tr><th>Periode PKL</th><td>1 Januari — 30 April</td></tr>
+        <tr><th>Pembimbing Lapangan</th><td>Wisnu Panjalu</td></tr>
+      </table>
+    </section>
+
+    <section id="kegiatan" class="card">
+      <h2>Rangkuman Kegiatan</h2>
+      <p class="muted">Berikut contoh tabel kegiatan harian/mingguan.</p>
+      <table>
+        <thead>
+          <tr><th>Tanggal</th><th>Kegiatan</th><th>Output</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>2025-01-01</td><td>Restart ONT</td><td>Melakukan restart perangkat ONT untuk melanjutkan omset pada web Acsis.</td></tr>
+          <tr><td>2025-02-08</td><td>Repush Valins ID</td><td>Melakukan repush data valins untuk memastikan status validasi omset.</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="hasil" class="card">
+      <h2>Hasil & Evaluasi</h2>
+      <p><strong>Hasil:</strong> Mendapatkan gambaran dunia kerja secara nyata serta pengalaman baru di lingkungan kerja profesional.</p>
+      <p><strong>Kendala:</strong> Beberapa istilah teknis dan gangguan jaringan sempat menjadi tantangan selama pelaksanaan PKL.</p>
+    </section>
+
+    <section id="kesimpulan" class="card">
+      <h2>Kesimpulan & Saran</h2>
+      <p><strong>Kesimpulan:</strong> Melalui PKL ini, penulis memperoleh banyak pengalaman baru di PT. Telkom Akses Samarinda, terutama dalam bidang Data Management.</p>
+      <p><strong>Saran:</strong> Peserta PKL selanjutnya disarankan mempelajari dasar penggunaan Microsoft Office sebelum penempatan.</p>
+    </section>
+
+    <section id="lampiran" class="card">
+      <h2>Lampiran</h2>
+      <div class="flex">
+        <div style="flex:1"><img src="/restart ont.png" alt="Foto 1" style="width:100%;border-radius:8px;max-height:200px;object-fit:cover"></div>
+        <div style="flex:1"><img src="/reoush valins id.png" style="width:100%;border-radius:8px;max-height:200px;object-fit:cover"></div>
+      </div>
+    </section>
+
+    <footer>
+      Dibuat dengan ❤️ — Muhammad Irsani
+    </footer>
+  </div>
+</body>
+</html>
